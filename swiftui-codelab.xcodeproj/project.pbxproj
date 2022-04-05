@@ -14,6 +14,9 @@
 		AAE159EA27FCF1FB0063DEC5 /* swiftui_codelabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE159E927FCF1FB0063DEC5 /* swiftui_codelabTests.swift */; };
 		AAE159F427FCF1FC0063DEC5 /* swiftui_codelabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE159F327FCF1FC0063DEC5 /* swiftui_codelabUITests.swift */; };
 		AAE159F627FCF1FC0063DEC5 /* swiftui_codelabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE159F527FCF1FC0063DEC5 /* swiftui_codelabUITestsLaunchTests.swift */; };
+		AAE15A0427FCF4B50063DEC5 /* Serie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE15A0327FCF4B50063DEC5 /* Serie.swift */; };
+		AAE15A0827FCF5F20063DEC5 /* SerieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE15A0727FCF5F20063DEC5 /* SerieViewModel.swift */; };
+		AAE15A0A27FCF7EA0063DEC5 /* SerieGenrePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE15A0927FCF7EA0063DEC5 /* SerieGenrePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		AAE159EF27FCF1FC0063DEC5 /* swiftui-codelabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftui-codelabUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE159F327FCF1FC0063DEC5 /* swiftui_codelabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_codelabUITests.swift; sourceTree = "<group>"; };
 		AAE159F527FCF1FC0063DEC5 /* swiftui_codelabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_codelabUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AAE15A0327FCF4B50063DEC5 /* Serie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serie.swift; sourceTree = "<group>"; };
+		AAE15A0727FCF5F20063DEC5 /* SerieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerieViewModel.swift; sourceTree = "<group>"; };
+		AAE15A0927FCF7EA0063DEC5 /* SerieGenrePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerieGenrePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,9 @@
 		AAE159D727FCF1F30063DEC5 /* swiftui-codelab */ = {
 			isa = PBXGroup;
 			children = (
+				AAE15A0627FCF5960063DEC5 /* View */,
+				AAE15A0527FCF5830063DEC5 /* ViewModels */,
+				AAE15A0227FCF3EC0063DEC5 /* Models */,
 				AAE159D827FCF1F30063DEC5 /* swiftui_codelabApp.swift */,
 				AAE159DA27FCF1F30063DEC5 /* ContentView.swift */,
 				AAE159DC27FCF1FA0063DEC5 /* Assets.xcassets */,
@@ -125,6 +134,30 @@
 				AAE159F527FCF1FC0063DEC5 /* swiftui_codelabUITestsLaunchTests.swift */,
 			);
 			path = "swiftui-codelabUITests";
+			sourceTree = "<group>";
+		};
+		AAE15A0227FCF3EC0063DEC5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AAE15A0327FCF4B50063DEC5 /* Serie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AAE15A0527FCF5830063DEC5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AAE15A0727FCF5F20063DEC5 /* SerieViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AAE15A0627FCF5960063DEC5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AAE15A0927FCF7EA0063DEC5 /* SerieGenrePicker.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +292,9 @@
 			files = (
 				AAE159DB27FCF1F30063DEC5 /* ContentView.swift in Sources */,
 				AAE159D927FCF1F30063DEC5 /* swiftui_codelabApp.swift in Sources */,
+				AAE15A0427FCF4B50063DEC5 /* Serie.swift in Sources */,
+				AAE15A0827FCF5F20063DEC5 /* SerieViewModel.swift in Sources */,
+				AAE15A0A27FCF7EA0063DEC5 /* SerieGenrePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
