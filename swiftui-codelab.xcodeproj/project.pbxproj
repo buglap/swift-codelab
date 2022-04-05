@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAE159D927FCF1F30063DEC5 /* swiftui_codelabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE159D827FCF1F30063DEC5 /* swiftui_codelabApp.swift */; };
+		AAE159DB27FCF1F30063DEC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE159DA27FCF1F30063DEC5 /* ContentView.swift */; };
+		AAE159DD27FCF1FA0063DEC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE159DC27FCF1FA0063DEC5 /* Assets.xcassets */; };
+		AAE159E027FCF1FA0063DEC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE159DF27FCF1FA0063DEC5 /* Preview Assets.xcassets */; };
+		AAE159EA27FCF1FB0063DEC5 /* swiftui_codelabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE159E927FCF1FB0063DEC5 /* swiftui_codelabTests.swift */; };
+		AAE159F427FCF1FC0063DEC5 /* swiftui_codelabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE159F327FCF1FC0063DEC5 /* swiftui_codelabUITests.swift */; };
+		AAE159F627FCF1FC0063DEC5 /* swiftui_codelabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE159F527FCF1FC0063DEC5 /* swiftui_codelabUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAE159E627FCF1FB0063DEC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAE159CD27FCF1F30063DEC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAE159D427FCF1F30063DEC5;
+			remoteInfo = "swiftui-codelab";
+		};
+		AAE159F027FCF1FC0063DEC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAE159CD27FCF1F30063DEC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAE159D427FCF1F30063DEC5;
+			remoteInfo = "swiftui-codelab";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAE159D527FCF1F30063DEC5 /* swiftui-codelab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-codelab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE159D827FCF1F30063DEC5 /* swiftui_codelabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_codelabApp.swift; sourceTree = "<group>"; };
+		AAE159DA27FCF1F30063DEC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AAE159DC27FCF1FA0063DEC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAE159DF27FCF1FA0063DEC5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AAE159E527FCF1FB0063DEC5 /* swiftui-codelabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftui-codelabTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE159E927FCF1FB0063DEC5 /* swiftui_codelabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_codelabTests.swift; sourceTree = "<group>"; };
+		AAE159EF27FCF1FC0063DEC5 /* swiftui-codelabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftui-codelabUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE159F327FCF1FC0063DEC5 /* swiftui_codelabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_codelabUITests.swift; sourceTree = "<group>"; };
+		AAE159F527FCF1FC0063DEC5 /* swiftui_codelabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_codelabUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAE159D227FCF1F30063DEC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE159E227FCF1FB0063DEC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE159EC27FCF1FC0063DEC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAE159CC27FCF1F30063DEC5 = {
+			isa = PBXGroup;
+			children = (
+				AAE159D727FCF1F30063DEC5 /* swiftui-codelab */,
+				AAE159E827FCF1FB0063DEC5 /* swiftui-codelabTests */,
+				AAE159F227FCF1FC0063DEC5 /* swiftui-codelabUITests */,
+				AAE159D627FCF1F30063DEC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAE159D627FCF1F30063DEC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAE159D527FCF1F30063DEC5 /* swiftui-codelab.app */,
+				AAE159E527FCF1FB0063DEC5 /* swiftui-codelabTests.xctest */,
+				AAE159EF27FCF1FC0063DEC5 /* swiftui-codelabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAE159D727FCF1F30063DEC5 /* swiftui-codelab */ = {
+			isa = PBXGroup;
+			children = (
+				AAE159D827FCF1F30063DEC5 /* swiftui_codelabApp.swift */,
+				AAE159DA27FCF1F30063DEC5 /* ContentView.swift */,
+				AAE159DC27FCF1FA0063DEC5 /* Assets.xcassets */,
+				AAE159DE27FCF1FA0063DEC5 /* Preview Content */,
+			);
+			path = "swiftui-codelab";
+			sourceTree = "<group>";
+		};
+		AAE159DE27FCF1FA0063DEC5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AAE159DF27FCF1FA0063DEC5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AAE159E827FCF1FB0063DEC5 /* swiftui-codelabTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAE159E927FCF1FB0063DEC5 /* swiftui_codelabTests.swift */,
+			);
+			path = "swiftui-codelabTests";
+			sourceTree = "<group>";
+		};
+		AAE159F227FCF1FC0063DEC5 /* swiftui-codelabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAE159F327FCF1FC0063DEC5 /* swiftui_codelabUITests.swift */,
+				AAE159F527FCF1FC0063DEC5 /* swiftui_codelabUITestsLaunchTests.swift */,
+			);
+			path = "swiftui-codelabUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAE159D427FCF1F30063DEC5 /* swiftui-codelab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE159F927FCF1FC0063DEC5 /* Build configuration list for PBXNativeTarget "swiftui-codelab" */;
+			buildPhases = (
+				AAE159D127FCF1F30063DEC5 /* Sources */,
+				AAE159D227FCF1F30063DEC5 /* Frameworks */,
+				AAE159D327FCF1F30063DEC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swiftui-codelab";
+			productName = "swiftui-codelab";
+			productReference = AAE159D527FCF1F30063DEC5 /* swiftui-codelab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAE159E427FCF1FB0063DEC5 /* swiftui-codelabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE159FC27FCF1FC0063DEC5 /* Build configuration list for PBXNativeTarget "swiftui-codelabTests" */;
+			buildPhases = (
+				AAE159E127FCF1FB0063DEC5 /* Sources */,
+				AAE159E227FCF1FB0063DEC5 /* Frameworks */,
+				AAE159E327FCF1FB0063DEC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAE159E727FCF1FB0063DEC5 /* PBXTargetDependency */,
+			);
+			name = "swiftui-codelabTests";
+			productName = "swiftui-codelabTests";
+			productReference = AAE159E527FCF1FB0063DEC5 /* swiftui-codelabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAE159EE27FCF1FC0063DEC5 /* swiftui-codelabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE159FF27FCF1FC0063DEC5 /* Build configuration list for PBXNativeTarget "swiftui-codelabUITests" */;
+			buildPhases = (
+				AAE159EB27FCF1FC0063DEC5 /* Sources */,
+				AAE159EC27FCF1FC0063DEC5 /* Frameworks */,
+				AAE159ED27FCF1FC0063DEC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAE159F127FCF1FC0063DEC5 /* PBXTargetDependency */,
+			);
+			name = "swiftui-codelabUITests";
+			productName = "swiftui-codelabUITests";
+			productReference = AAE159EF27FCF1FC0063DEC5 /* swiftui-codelabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAE159CD27FCF1F30063DEC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AAE159D427FCF1F30063DEC5 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					AAE159E427FCF1FB0063DEC5 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = AAE159D427FCF1F30063DEC5;
+					};
+					AAE159EE27FCF1FC0063DEC5 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = AAE159D427FCF1F30063DEC5;
+					};
+				};
+			};
+			buildConfigurationList = AAE159D027FCF1F30063DEC5 /* Build configuration list for PBXProject "swiftui-codelab" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAE159CC27FCF1F30063DEC5;
+			productRefGroup = AAE159D627FCF1F30063DEC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAE159D427FCF1F30063DEC5 /* swiftui-codelab */,
+				AAE159E427FCF1FB0063DEC5 /* swiftui-codelabTests */,
+				AAE159EE27FCF1FC0063DEC5 /* swiftui-codelabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAE159D327FCF1F30063DEC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE159E027FCF1FA0063DEC5 /* Preview Assets.xcassets in Resources */,
+				AAE159DD27FCF1FA0063DEC5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE159E327FCF1FB0063DEC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE159ED27FCF1FC0063DEC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAE159D127FCF1F30063DEC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE159DB27FCF1F30063DEC5 /* ContentView.swift in Sources */,
+				AAE159D927FCF1F30063DEC5 /* swiftui_codelabApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE159E127FCF1FB0063DEC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE159EA27FCF1FB0063DEC5 /* swiftui_codelabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE159EB27FCF1FC0063DEC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE159F427FCF1FC0063DEC5 /* swiftui_codelabUITests.swift in Sources */,
+				AAE159F627FCF1FC0063DEC5 /* swiftui_codelabUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAE159E727FCF1FB0063DEC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAE159D427FCF1F30063DEC5 /* swiftui-codelab */;
+			targetProxy = AAE159E627FCF1FB0063DEC5 /* PBXContainerItemProxy */;
+		};
+		AAE159F127FCF1FC0063DEC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAE159D427FCF1F30063DEC5 /* swiftui-codelab */;
+			targetProxy = AAE159F027FCF1FC0063DEC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AAE159F727FCF1FC0063DEC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAE159F827FCF1FC0063DEC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAE159FA27FCF1FC0063DEC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-codelab/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "udea.swiftui-codelab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAE159FB27FCF1FC0063DEC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-codelab/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "udea.swiftui-codelab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAE159FD27FCF1FC0063DEC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "udea.swiftui-codelabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftui-codelab.app/swiftui-codelab";
+			};
+			name = Debug;
+		};
+		AAE159FE27FCF1FC0063DEC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "udea.swiftui-codelabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftui-codelab.app/swiftui-codelab";
+			};
+			name = Release;
+		};
+		AAE15A0027FCF1FC0063DEC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "udea.swiftui-codelabUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "swiftui-codelab";
+			};
+			name = Debug;
+		};
+		AAE15A0127FCF1FC0063DEC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "udea.swiftui-codelabUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "swiftui-codelab";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAE159D027FCF1F30063DEC5 /* Build configuration list for PBXProject "swiftui-codelab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE159F727FCF1FC0063DEC5 /* Debug */,
+				AAE159F827FCF1FC0063DEC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE159F927FCF1FC0063DEC5 /* Build configuration list for PBXNativeTarget "swiftui-codelab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE159FA27FCF1FC0063DEC5 /* Debug */,
+				AAE159FB27FCF1FC0063DEC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE159FC27FCF1FC0063DEC5 /* Build configuration list for PBXNativeTarget "swiftui-codelabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE159FD27FCF1FC0063DEC5 /* Debug */,
+				AAE159FE27FCF1FC0063DEC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE159FF27FCF1FC0063DEC5 /* Build configuration list for PBXNativeTarget "swiftui-codelabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE15A0027FCF1FC0063DEC5 /* Debug */,
+				AAE15A0127FCF1FC0063DEC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAE159CD27FCF1F30063DEC5 /* Project object */;
+}
