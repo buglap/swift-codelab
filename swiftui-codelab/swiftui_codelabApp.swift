@@ -11,7 +11,7 @@ import SwiftUI
 struct swiftui_codelabApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SerieListView()
         }
     }
 }

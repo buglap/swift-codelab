@@ -6,7 +6,7 @@
 //
 
 import Foundation
-class SerieStore: ObservableObject {
+class SerieViewModel: ObservableObject {
     static let serieKey = "Movies"
     static let defaultSerie = [
         Serie(title: "American psico", genre: "Comedy", rating: 4.5),
@@ -14,13 +14,13 @@ class SerieStore: ObservableObject {
     ]
 
     static func loadSeries() -> [Serie] {
-        let savedSeries = UserDefaults.standard.object(forKey: SerieStore.serieKey)
+        let savedSeries = UserDefaults.standard.object(forKey: SerieViewModel.serieKey)
         if let savedSeries = savedSeries as? Data {
             let decoder = JSONDecoder()
             return (try? decoder.decode([Serie].self, from: savedSeries))
-            ?? SerieStore.defaultSerie
+            ?? SerieViewModel.defaultSerie
         }
-        return SerieStore.defaultSerie
+        return SerieViewModel.defaultSerie
     }
 
     @Published var series = loadSeries() {
@@ -41,7 +41,7 @@ class SerieStore: ObservableObject {
     private func persistSeries() {
         let encoder = JSONEncoder()
         if let encoded = try? encoder.encode(series) {
-            UserDefaults.standard.set(encoded, forKey: SerieStore.serieKey)
+            UserDefaults.standard.set(encoded, forKey: SerieViewModel.serieKey)
         }
     }
 }
